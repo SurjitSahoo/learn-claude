@@ -429,6 +429,7 @@ dependencies = [
     { name = "httpx" },
     { name = "idna" },
     { name = "ipykernel" },
+    { name = "ipynb" },
     { name = "ipython" },
     { name = "isoduration" },
     { name = "jedi" },
@@ -541,6 +542,7 @@ requires-dist = [
     { name = "httpx", specifier = "==0.28.1" },
     { name = "idna", specifier = "==3.18" },
     { name = "ipykernel", specifier = "==7.3.0" },
+    { name = "ipynb", specifier = ">=0.5.1" },
     { name = "ipython", specifier = "==8.39.0" },
     { name = "isoduration", specifier = "==20.11.0" },
     { name = "jedi", specifier = "==0.20.0" },
@@ -810,6 +812,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/3d/c4/e4a38f579de4225a561305666f7541cdabb30075def2aa1ac17bd73c1fb5/ipykernel-7.3.0.tar.gz", hash = "sha256:9acaaaf97d16355166e4085afe9d225bfbdf2b7ef520f9df3be8f2b248275e09", size = 184899, upload-time = "2026-06-10T08:41:25.481Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3d/02/77b271f5dc58bfbc0b577c877b2365d1ffea2afe66a80c13f2312820348c/ipykernel-7.3.0-py3-none-any.whl", hash = "sha256:897eb64da762549ef610698fca5e9675195ec6ac8ec7f19d81ce1ca20c876057", size = 120583, upload-time = "2026-06-10T08:41:23.648Z" },
+]
+
+[[package]]
+name = "ipynb"
+version = "0.5.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a9/73/fd7b6497883c180e870712216348cf0f3271b75347f75cffbf28cf633d7e/ipynb-0.5.1.tar.gz", hash = "sha256:8d834c777ca3885289938728cc382f081c86a58e92961e86f0aba60c96938ce5", size = 3938, upload-time = "2017-10-23T06:25:52.279Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/31/42/4c0bbb66390e3a68e04ebf134c8d074a00c18b5882293f8ace5f7497fbf0/ipynb-0.5.1-py3-none-any.whl", hash = "sha256:9686aafce6fd58ec160fa6ba649a7810df89cc0f06a317188ac5e59fd728e325", size = 6885, upload-time = "2017-10-23T06:25:54.199Z" },
 ]
 
 [[package]]

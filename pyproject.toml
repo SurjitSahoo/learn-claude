@@ -36,6 +36,7 @@ dependencies = [
     "httpx==0.28.1",
     "idna==3.18",
     "ipykernel==7.3.0",
+    "ipynb>=0.5.1",
     "ipython==8.39.0",
     "isoduration==20.11.0",
     "jedi==0.20.0",
